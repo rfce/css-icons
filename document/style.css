@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+    Container
+    -   Change width and height of this div to scale vector
+*/
+._3clu {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    position: relative;
+    width: 62%;
+    height: 80%;
+    background-color: rgba(78,139,237);
+    border-radius: 20%/13%;
+    clip-path: polygon(0 0,calc(100% - 33.33%) 0,100% 25.83%,100% 100%,0 100%);
+}
+
+._1ebc {
+    position: absolute;
+    width: 33.33%;
+    height: 25.83%;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(162,192,242);
+    border-radius: 30%;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+._2eae {
+    position: absolute;
+    width: 32%;
+    height: 24%;
+    background-color: rgba(67,122,223);
+    clip-path: polygon(0 0,0 0,100% 100%,100% 100%,0 100%);
+    transform: rotate(180deg);
+    top: 25.83%;
+    right: 0px;
+}
+
+._2cdq {
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    background-color: transparent;
+    top: 35%;
+    left: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9%;
+}
+
+._2cdq > div {
+    width: 58%;
+    height: 6%;
+    background-color: rgba(234,234,234);
+}
+._2cdq > div:last-of-type {
+    background-color: transparent;
+}
+
+._2cdq > div:last-of-type div {
+    width: 80%;
+    height: 100%;
+    background-color: rgba(234,234,234);
+}
